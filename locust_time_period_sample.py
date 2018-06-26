@@ -1,17 +1,3 @@
-# Locust-Time-based-TaskSet
-Time based TaskSet for Locust.
-
-
-Requirements
-------------
-
-- Python >= 3.5
-- locust == 0.8
-
-
-Quick Start
-------------
-```python
 import pprint
 from locust import HttpLocust
 from locust_time_taskset import TimeTaskSet
@@ -40,4 +26,3 @@ class WebsiteUser(HttpLocust):
     min_wait = 0
     max_wait = 0
 
-```
